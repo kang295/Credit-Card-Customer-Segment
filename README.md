@@ -6,10 +6,13 @@ Synthesize a sample dataset comprising a recent 6-month usage behavior of approx
 ## Objective: 
 Utilize cluster analysis to segment credit card customers for effective marketing strategies.
 
-## Project Overview: 
+## Project Overview 📖: 
 1. **Data Import** & **Overview** + **insights**
 2. **Data Preprocessing** (Missing values, feature drop) and **EDA** (Histograms, Boxplot, Heatmap)
 3. **Feature Engineering** on right-skewed data using 'Square root transformation'
+4. **Pre-Modeling** (Scaling and PCA)
+5. **Model Building** KMeans Clustering
+6. **Cluster Interpretation**
 
 ## Data Dictionary:
 - `CUST_ID`: Identification of credit card holder

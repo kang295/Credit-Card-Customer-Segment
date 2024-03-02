@@ -13,9 +13,9 @@ Utilize cluster analysis to segment credit card customers for effective marketin
 - `BALANCE`: Balance amount left in the account to make purchases
 - `BALANCE_FREQUENCY`: How frequently the balance is updated, score between 0 and 1
 - `PURCHASES`: Amount of purchases made from the account
-- `ONEOFF_PURCHASES`: Maximum purchase amount done in one attempt
-- `INSTALLMENTS_PURCHASES`: Amount of purchase done in installment
-- `CASH_ADVANCE`: Cash in advance given by the user
+- `ONEOFF_PURCHASES`: Maximum single-time purchase amount
+- `INSTALLMENTS_PURCHASES`: Amount of purchase done in installment (할부액)
+- `CASH_ADVANCE`: Cash in advance given by the user (선납입)
 - `PURCHASES_FREQUENCY`: How frequently the purchases are being made, score between 0 and 1
 - `ONEOFFPURCHASESFREQUENCY`: How frequently purchases are happening in one-go
 - `PURCHASESINSTALLMENTSFREQUENCY`: How frequently purchases in installments are being done
@@ -26,4 +26,4 @@ Utilize cluster analysis to segment credit card customers for effective marketin
 - `PAYMENTS`: Amount of payment done by user
 - `MINIMUM_PAYMENTS`: Minimum amount of payments made by user
 - `PRCFULLPAYMENT`: Percent of full payment paid by user
-- `TENURE`: Tenure of credit card service for user 
+- `TENURE`: Tenure of credit card service for user (가입 유지일)

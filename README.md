@@ -7,12 +7,28 @@ Synthesize a sample dataset comprising a recent 6-month usage behavior of approx
 Utilize cluster analysis to segment credit card customers for effective marketing strategies.
 
 ## Project Overview 📖: 
-1. **Data Import** & **Overview** + **insights**
-2. **Data Preprocessing** (Missing values, feature drop) and **EDA** (Histograms, Boxplot, Heatmap)
-3. **Feature Engineering** on right-skewed data using 'Square root transformation'
-4. **Pre-Modeling** (Scaling and PCA)
-5. **Model Building** KMeans Clustering
-6. **Cluster Interpretation**
+1. **Data Import** & **Understanding**
+   - Insights: Initial glimpse into the dataset, understanding the structure and the type of data we're dealing with.
+
+2. **Data Preprocessing** & **Exploratory Data Analysis (EDA)** 
+   - **Missing Values & Feature Drop**: Tackling the challenges of incomplete data and irrelevant features to streamline our analysis.
+   - **EDA Techniques**:
+     - Histograms: Visualizing distributions of numerical variables.
+     - Boxplot: Identifying outliers and the spread of the data.
+     - Heatmap: Unveiling correlations between variables.
+
+3. **Feature Engineering** 
+   - Addressing right-skewed data with 'Square root transformation' to normalize distributions and improve model performance.
+
+4. **Pre-Modeling** 
+   - Scaling: Standardizing the range of our features for optimal clustering.
+   - PCA (Principal Component Analysis): Reducing dimensionality while retaining the essence of our data.
+
+5. **Model Building** 
+   - **KMeans Clustering**: Segmenting our customers into meaningful groups based on their behavior and attributes.
+
+6. **Cluster Interpretation** 
+   - Diving deep into each cluster to understand the defining characteristics and behaviors of segmented customer groups.
 
 ## Data Dictionary:
 - `CUST_ID`: Identification of credit card holder

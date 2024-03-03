@@ -30,7 +30,7 @@ Utilize cluster analysis to segment credit card customers for effective marketin
 6. **Cluster Interpretation** 
    - Diving deep into each cluster to understand the defining characteristics and behaviors of segmented customer groups.
 
-## Data Dictionary:
+## Data Dictionary 📚:
 - `CUST_ID`: Identification of credit card holder
 - `BALANCE`: Amount of credit you've used on your card, which includes charges made
 - `BALANCE_FREQUENCY`: How frequently the balance is updated, score between 0 and 1

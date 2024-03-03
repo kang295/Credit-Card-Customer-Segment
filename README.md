@@ -1,7 +1,7 @@
 # Credit Card Customer Segmentation using Clustering 💳
 
 ## Project Description 📌: 
-Synthesize a sample dataset comprising a recent 6-month usage behavior of approximately 9000 active credit card holders. The dataset is structured at the customer level and encompasses 18 behavioral variables.
+Synthesize a sample dataset comprising a **recent 6-month** usage behavior of approximately 9000 active credit card holders. The dataset is structured at the customer level and encompasses 18 behavioral variables.
 
 ## Objective: 
 Utilize cluster analysis to segment credit card customers for effective marketing strategies.

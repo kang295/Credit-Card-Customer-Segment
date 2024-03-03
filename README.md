@@ -1,4 +1,4 @@
-# Credit Card Customer Segmentation using Clustering 💳
+# Credit Card Customer Segmentation using K-Means Clustering (with PCA) 💳
 
 ## Project Description 📌: 
 Synthesize a sample dataset comprising a **recent 6-month** usage behavior of approximately 9000 active credit card holders. The dataset is structured at the customer level and encompasses 18 behavioral variables.

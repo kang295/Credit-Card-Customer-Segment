@@ -50,3 +50,13 @@ Utilize cluster analysis to segment credit card customers for effective marketin
 - `MINIMUM_PAYMENTS`: Minimum payment amount made by user
 - `PRCFULLPAYMENT`: Percent of total charge paid by the user
 - `TENURE`: Credit card tenure of an user (가입 유지일)
+
+## Clusters and Insights per Groups 🙌🏻
+**Cluster 0**:
+For this group, offering products that incentivize full payments, such as cashback rewards, could be effective. Additionally, promoting low-interest rates on cash advances or providing offers that encourage more frequent use of the card for purchases could increase engagement.
+
+**Cluster 1**:
+For this group, offering products that incentivize full payments, such as cashback rewards, could be effective. Additionally, promoting low-interest rates on cash advances or providing offers that encourage more frequent use of the card for purchases could increase engagement.
+
+**Cluster 2**:
+Customers in this cluster might respond well to rewards that benefit frequent and high spenders, such as tiered rewards programs. Offers that encourage larger purchases or bonus points for installment purchases could also be appealing. Additionally, providing incentives for paying off balances could encourage more full payments.

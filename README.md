@@ -23,6 +23,7 @@ Utilize cluster analysis to segment credit card customers for effective marketin
 4. **Pre-Modeling** 
    - Scaling: Standardizing the range of our features for optimal clustering.
    - PCA (Principal Component Analysis): Reducing dimensionality while retaining the essence of our data.
+   - Explained variance ratio
 
 5. **Model Building** 
    - **KMeans Clustering**: Segmenting our customers into meaningful groups based on their behavior and attributes.

@@ -23,7 +23,6 @@ Utilize cluster analysis to segment credit card customers for effective marketin
 4. **Pre-Modeling** 
    - Scaling: Standardizing the range of our features for optimal clustering.
    - PCA (Principal Component Analysis): Reducing dimensionality while retaining the essence of our data.
-   - Explained Variance Ratio: Identifying the optimal number of components.
 
 5. **Model Building** 
    - **KMeans Clustering**: Segmenting our customers into meaningful groups based on their behavior and attributes.
@@ -33,12 +32,12 @@ Utilize cluster analysis to segment credit card customers for effective marketin
 
 ## Data Dictionary:
 - `CUST_ID`: Identification of credit card holder
-- `BALANCE`: Balance amount left in the account to make purchases
+- `BALANCE`: Amount of credit you've used on your card, which includes charges made
 - `BALANCE_FREQUENCY`: How frequently the balance is updated, score between 0 and 1
 - `PURCHASES`: Amount of purchases made from the account
 - `ONEOFF_PURCHASES`: Maximum purchase amount in single transaction
-- `INSTALLMENTS_PURCHASES`: Amount purchase in installment (할부액)
-- `CASH_ADVANCE`: The user's advance payment in cash (선납입)
+- `INSTALLMENTS_PURCHASES`: Amount purchase in installment (할부구입)
+- `CASH_ADVANCE`: The user's advance payment in cash (카드대출)
 - `PURCHASES_FREQUENCY`: Frequency of purchases made on a regular basis, score between 0 and 1
 - `ONEOFFPURCHASESFREQUENCY`: Frequency of purchases made in single transaction (일시불 거래)
 - `PURCHASESINSTALLMENTSFREQUENCY`: Frequency of done purchases in installments (할부 거래)
